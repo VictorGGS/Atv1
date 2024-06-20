@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song BOX</title>
+    <link rel="stylesheet" href="formulario.css" />
+</head>
+
+    <style>
+        a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        }
+        a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        }   
+        a:hover {
+        color: black; 
+        text-decoration: none;
+        }    
+    </style>
+
+<body>
+    
+    <header>
+
+        <div class="column1">
+            <form>
+                <br /><br />
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+        <br />
+                    <label for="idNome">Digite seu Nome</label>
+                    <input type="text" id="idNome"/>
+        <br /><br />
+                    <label for="idemail">Digite seu e-mail</label>
+                    <input type="email" id="idemail"/>
+        <br /><br />
+                    <label for="idData">Data de Nascimento: </label>
+                    <input type="date" id="idData"/>
+        <br /><br />
+                    <label for="idCPF">Digite seu CPF: </label>
+                    <input type="number" id="idCPF"/>
+        <br /><br />
+                    <label for="idSenha">Digite sua Senha: </label>
+                    <input type="password" id="idSenha"/>
+        <br /><br />
+                    <label for="idgenero">Qual seu gênero?</label>
+                        <br />
+                    <input type="radio" name="gene" id="Feminino">
+                    <label for="Feminino">Feminino</label>
+                        <br />
+                    <input type="radio" name="gene" id="Masculino">
+                    <label for="Masculino">Masculino</label>
+                        <br />
+                    <input type="radio" name="gene" id="Outros">
+                    <label for="Outros">Outros</label>
+        <br /><br />
+                    <label for="estado">De onde você vem? </label>
+                    <select>
+                        <option value="MG" id="estado">Minas Gerais</option>
+                        <option value="RJ" id="estado">Rio de Janeiro</option>
+                        <option value="SP" id="estado">São Paulo</option>
+                        <option value="ES" id="estado">Espirito Santo</option>
+        <br /><br />            
+                        <input type="reset" value="Apagar Tudo"/> 
+                        <input type="submit" value="Mandar"/>
+        <br /><br />
+                    </select>                
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="column2">
+            <h3>
+                <a href="indexPI.html">Voltar</a>
+            </h3>
+        </div>
+
+    </header>
+
+    <main>
+        <img src="./imagens/pexels-cottonbro-5650905.png" alt="CantorDeRock" width="400">
+        <img src="./imagens/Chester.png" alt="Chester" width="400">
+    </main>
+
+</body>
+</html>
